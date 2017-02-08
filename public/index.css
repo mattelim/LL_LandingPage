@@ -1,0 +1,118 @@
+body {
+  background-image: url("img/bg_jump.jpg");
+  background-size: 120%;
+  font-family: 'Space Mono', monospace;
+  color: grey;
+  font-size: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#topSpace {
+  height: 15%;
+}
+
+#mainContainer {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/bg_hands.png");
+  background-size: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#LLLogo{
+  display: inline-block;
+  width: 50%;
+  height: 55px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-image: url("img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#introText {
+  display: inline-block;
+  text-align: left;
+	margin-top:2%;
+  width: 50%;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+span.LL {
+	font-size:1.05em;
+  letter-spacing: 0.05em;
+  color: black;
+  font-weight:700;
+}
+
+span.titles {
+  font-style: italic;
+	letter-spacing:.05em;
+}
+
+a:link {
+	font-size:.9em;
+	font-weight:700;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:dimgrey;
+	letter-spacing:.1em;
+}
+
+a:visited {
+	color:grey;
+}
+
+a:hover,a:focus {
+	color: black;
+	border-bottom:2px solid black;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  #topSpace {
+    height: 3%;
+  }
+
+  body {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+  }
+
+  #LLLogo{
+    display: inline-block;
+    width: 90%;
+    height: 120px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-image: url("img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #mainContainer {
+    background-image: none;
+  }
+
+  #introText {
+  	margin-left:5%;
+  	margin-right:5%;
+  	margin-top:2%;
+    text-align: left;
+    width: 90%;
+  }
+
+	p.block {
+		font-size:3em;
+		margin-bottom:10px;
+	}
+
+}
