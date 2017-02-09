@@ -12,6 +12,6 @@ $("#mainContainer").mousemove(function(e) {
   if (!mql.matches) {
     var x = -(e.pageX + this.offsetLeft) / 15 + 80;
     var y = -(e.pageY + this.offsetTop) / 15 + 80;
-    $("#mainContainer").css('background-position', x + '% ' + y + '%');
+    $(this).css('background-position', x + '% ' + y + '%');
   }
 });
